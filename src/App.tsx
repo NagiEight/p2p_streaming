@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:5000");
+const socket = io("http://100.86.39.103:5000");
 
 const App: React.FC = () => {
   const localVideoRef = useRef<HTMLVideoElement>(null);
